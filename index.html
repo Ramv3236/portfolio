@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ram Varma — Graphic Designer, Video Editor & AI Filmmaker</title>
+  <meta name="description" content="Portfolio of Rama Sai Mohith Varma Alluri: healthcare social media design, carousels, banners and AI UGC reels. Based in Hyderabad, India." />
+  <meta property="og:title" content="Ram Varma — Design & Video Portfolio" />
+  <meta property="og:description" content="Healthcare social design, carousels, banners and AI UGC reels." />
+  <meta property="og:image" content="assets/work/ent/1.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="#top" class="logo" aria-label="Ram Varma, home">RV<span>.</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#reels">Video</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Let's talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="dot"></span> Available for freelance · Hyderabad, India</p>
+        <h1>Design &amp; video that make <em>healthcare</em> easy to understand.</h1>
+        <p class="lede">I'm <strong>Ram Varma</strong> — a graphic designer, video editor and AI filmmaker. I turn medical information into scroll-stopping carousels, posts, banners and reels for clinics and brands.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#reels" class="btn btn-ghost">Watch videos ▸</a>
+        </div>
+        <ul class="stats">
+          <li><b>40+</b><span>designs</span></li>
+          <li><b>4</b><span>Instagram pages</span></li>
+          <li><b>25k+</b><span>reel views</span></li>
+          <li><b>5</b><span>videos &amp; reels</span></li>
+                  </ul>
+      </div>
+      <div class="ring-stage" id="ring-stage">
+        <div class="ring-tilt"><div class="ring" id="ring"></div></div>
+        <p class="ring-hint">Drag to spin · click a design to open it</p>
+      </div>
+    </section>
+
+    <!-- SHOWCASE STRIP: every design, always moving -->
+    <section class="showcase" aria-label="All designs">
+      <div class="marquee"><div class="track" id="track-1"></div></div>
+      <div class="marquee reverse"><div class="track" id="track-2"></div></div>
+    </section>
+
+    <!-- CLIENT STRIP -->
+    <section class="clients">
+      <p>Made for</p>
+      <ul>
+        <li>Amrita ENT Head &amp; Neck Hospital</li>
+        <li>Dr Greeshma Pulluri</li>
+        <li>Blume Dental</li>
+        <li>Blume Health</li>
+        <li>IZZAVIBE</li>
+        <li>Basuri Events</li>
+        <li>Phovix Film &amp; Studio</li>
+        <li>Cracku</li>
+      </ul>
+    </section>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="section-head">
+        <p class="kicker">01 — Selected work</p>
+        <h2>Social media design</h2>
+        <p class="sub">Instagram carousels, single posts, hospital banners and poster-style thumbnails. Click any project to flip through every slide.</p>
+      </div>
+      <div class="filters" role="tablist" aria-label="Filter projects">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="carousel">Carousels</button>
+        <button class="chip" data-filter="post">Posts</button>
+        <button class="chip" data-filter="banner">Banners</button>
+        <button class="chip" data-filter="poster">Posters</button>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <!-- REELS -->
+    <section class="section reels-section" id="reels">
+      <div class="section-head">
+        <p class="kicker">02 — Motion &amp; video</p>
+        <h2>Reels, explainers &amp; edits</h2>
+        <p class="sub">AI UGC product reels, an animated health explainer and a kinetic-typography edit — all edited, paced and graded for Instagram. Tap any video to play it with sound.</p>
+      </div>
+      <div class="reels" id="reels-list"></div>
+      <div class="wide-video" id="wide-video"></div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section" id="instagram">
+      <div class="section-head">
+        <p class="kicker">03 — Live on Instagram</p>
+        <h2>Pages I create content for</h2>
+        <p class="sub">I make the reels, posts and carousels for these healthcare pages. Below are some of my best-performing reels — they play right here.</p>
+      </div>
+      <div class="pages" id="ig-pages"></div>
+      <div class="ig-head">
+        <h3>Top reels</h3>
+        <div class="ig-arrows">
+          <button class="ig-arrow" data-dir="-1" aria-label="Scroll reels left">‹</button>
+          <button class="ig-arrow" data-dir="1" aria-label="Scroll reels right">›</button>
+        </div>
+      </div>
+      <div class="ig-reels" id="ig-reels"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-head">
+        <p class="kicker">04 — About</p>
+        <h2>Hi, I'm Rama Sai Mohith Varma Alluri.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I'm a video editor, graphic designer and AI filmmaker based in Hyderabad. Most of my recent work is for healthcare: doctor-focused educational reels and patient-friendly social posts that explain things like snoring, screen time, hearing tests and dental care in a way people actually stop to read.</p>
+          <p>Before design, I worked in fast-paced operations in London and at the Dubai World Trade Centre (including Formula 1 and royal events). That taught me to work calmly under pressure and always deliver on time.</p>
+          <p>I also write Python to analyse audience retention data, so my edits are shaped by what keeps people watching.</p>
+          <p class="langs">Speaks English · Hindi · Telugu</p>
+        </div>
+        <div class="skills">
+          <div class="skill-group">
+            <h3>Design</h3>
+            <p>Social carousels · Instagram posts · Hospital banners · Posters &amp; thumbnails · AI image generation</p>
+          </div>
+          <div class="skill-group">
+            <h3>Video</h3>
+            <p>Short-form editing · Motion graphics · Kinetic typography · Colour grading · Sound design · AI video</p>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="tags">
+              <li>Photoshop</li><li>Lightroom</li><li>Premiere Pro</li><li>After Effects</li><li>Illustrator</li><li>Final Cut Pro</li><li>DaVinci Resolve</li><li>CapCut</li><li>Frame.io</li><li>Python</li><li>HTML / CSS / JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="xp-title">Experience</h3>
+      <ol class="timeline">
+        <li><span class="when">Sep 2026 — Now</span><div><b>Video Editor</b> · Blume Health, Hyderabad<p>Doctor-focused educational reels and AI video content for healthcare communication.</p></div></li>
+        <li><span class="when">Jun 2026 — Now</span><div><b>Freelance Video Editor</b> · Basuri Events, London (remote)<p>Event-focused video with polished pacing and post-production.</p></div></li>
+        <li><span class="when">Jul — Aug 2026</span><div><b>Video Editor</b> · IZZAVIBE Digital Media, Hyderabad<p>Digital-media video content focused on clear storytelling.</p></div></li>
+        <li><span class="when">Ongoing</span><div><b>Freelance Editor &amp; Media Professional</b> · Phovix Film and Studio<p>Edits for creators on YouTube, Instagram and TikTok, plus corporate brand clients: multi-cam sync, audio clean-up, colour matching and grading.</p></div></li>
+        <li><span class="when">2022 — 2025</span><div><b>Operations</b> · Wok Unit, London &amp; Dubai World Trade Centre<p>High-volume, high-pressure operations for international events.</p></div></li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="kicker">05 — Contact</p>
+      <h2>Need posts, carousels or reels for your clinic or brand?</h2>
+      <p class="sub">Tell me what you're working on. I usually reply within a day.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-lg" href="mailto:rammohith43@gmail.com">rammohith43@gmail.com</a>
+        <a class="btn btn-light btn-lg" href="https://wa.me/919515587761" target="_blank" rel="noopener">WhatsApp +91 95155 87761</a>
+        <a class="btn btn-light btn-lg" href="https://www.linkedin.com/in/mohith-varma-alluri-023133226/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Ram Varma</span>
+    <a href="https://www.linkedin.com/in/mohith-varma-alluri-023133226/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project viewer" hidden>
+    <button class="lb-close" aria-label="Close">✕</button>
+    <button class="lb-arrow lb-prev" aria-label="Previous slide">‹</button>
+    <figure class="lb-stage">
+      <img id="lb-img" alt="" />
+      <figcaption>
+        <span id="lb-title"></span>
+        <span id="lb-count"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-arrow lb-next" aria-label="Next slide">›</button>
+    <div class="lb-thumbs" id="lb-thumbs"></div>
+  </div>
+
+  <!-- Little character that walks after the mouse (desktop only) -->
+  <div class="buddy" id="buddy" aria-hidden="true">
+    <div class="buddy-bubble" id="buddy-bubble"></div>
+    <svg viewBox="0 0 64 80" class="buddy-svg">
+      <ellipse class="b-shadow" cx="32" cy="76" rx="15" ry="3.2" />
+      <g class="b-flip">
+        <g class="b-leg b-leg-l"><rect x="23" y="55" width="6.5" height="17" rx="3.2" /><ellipse cx="25" cy="72.5" rx="6" ry="3.2" /></g>
+        <g class="b-leg b-leg-r"><rect x="34.5" y="55" width="6.5" height="17" rx="3.2" /><ellipse cx="39" cy="72.5" rx="6" ry="3.2" /></g>
+        <g class="b-body">
+          <rect class="b-arm b-arm-l" x="9" y="37" width="6.5" height="15" rx="3.2" />
+          <rect class="b-arm b-arm-r" x="48.5" y="37" width="6.5" height="15" rx="3.2" />
+          <rect class="b-torso" x="13" y="20" width="38" height="41" rx="19" />
+          <path class="b-beret" d="M15 26 C17 12 45 10 49 24 C40 19 26 19 15 26 Z" />
+          <circle class="b-beret" cx="33" cy="12.5" r="2.4" />
+          <g class="b-eyes">
+            <ellipse cx="26" cy="37" rx="5" ry="6" fill="#fff" />
+            <ellipse cx="39" cy="37" rx="5" ry="6" fill="#fff" />
+            <g class="b-pupils"><circle cx="27.6" cy="38" r="2.7" /><circle cx="40.6" cy="38" r="2.7" /></g>
+          </g>
+          <circle cx="21" cy="46" r="2.6" class="b-cheek" /><circle cx="44" cy="46" r="2.6" class="b-cheek" />
+          <path class="b-mouth" d="M29 47 Q33 51 37 47" />
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="motion.js"></script>
+</body>
+</html>
