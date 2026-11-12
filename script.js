@@ -16,8 +16,12 @@ const reels = [
   { src: "reels/nasal", title: "Nasal spray", note: "Healthcare · AI UGC reel" },
   { src: "reels/gelmask", title: "Collagen gel mask", note: "Skincare · AI UGC reel" },
   { src: "videos/momentum", title: "Eye infection explainer", note: "Healthcare · 2D motion graphics" },
+  { src: "reels/ai-scholarship", title: "AI scholarship explainer", note: "Education · Motion graphics" },
 ];
-const wideVideo = { src: "videos/insta", title: "Kinetic typography edit", note: "Instagram · Motion text & colour grade" };
+const wideVideos = [
+  { src: "videos/kiran-trailer", title: "Kiran Abbavaram × Honest Townhall — trailer cut", note: "YouTube · Multicam edit, motion graphics, sound design" },
+  { src: "videos/insta", title: "Kinetic typography edit", note: "Instagram · Motion text & colour grade" },
+];
 
 const img = (p, n, thumb) => `assets/work/${p.folder}/${n}${thumb ? "_t" : ""}.jpg`;
 const typeLabel = { carousel: "Carousel", post: "Posts", banner: "Banners", poster: "Posters" };
@@ -104,7 +108,7 @@ const reelHTML = (r, extra = "") => `
     <div class="reel-ui"><div><h3>${r.title}</h3><p>${r.note}</p></div><span class="sound" aria-hidden="true">🔇</span></div>
   </div>`;
 reelsList.innerHTML = reels.map(r => reelHTML(r)).join("");
-document.getElementById("wide-video").innerHTML = reelHTML(wideVideo, "landscape");
+document.getElementById("wide-video").innerHTML = wideVideos.map(v => reelHTML(v, "landscape")).join("");
 
 const reelEls = [...document.querySelectorAll(".reel")];
 function setSound(target) {
